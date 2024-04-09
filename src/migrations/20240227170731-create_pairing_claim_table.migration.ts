@@ -18,7 +18,7 @@ export class Migration20240227170731_create_pairing_claim_table extends Migratio
 
         await queryBuilder.raw(`
             CREATE TRIGGER pairing_claim_modified_at_trigger
-                BEFORE UPDATE
+                BEFORE UPDATE 1111
                 ON pairing_claims
                 FOR EACH ROW
             EXECUTE PROCEDURE update_modified_at();
