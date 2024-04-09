@@ -3,7 +3,7 @@
     "packageManager": "yarn@4.1.1",
     "scripts": {
         "database:setup": "docker compose up -d",
-        "migration:up": "yarn mikro-orm migration:up"
+        "migrate:up": "yarn mikro-orm migration:up"
     },
     "dependencies": {
         "@mikro-orm/cli": "^6.1.12",
