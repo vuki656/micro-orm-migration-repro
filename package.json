@@ -1,0 +1,8 @@
+{
+  "name": "micro-orm-migration-repro",
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "@mikro-orm/core": "^6.1.12",
+    "@mikro-orm/postgresql": "^6.1.12"
+  }
+}
